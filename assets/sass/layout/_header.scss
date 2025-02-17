@@ -102,7 +102,17 @@
         }
     }
 }
-
+.navbar-header {
+    text-align: center;
+    padding: 10px 0;
+}
+.navbar-brand {
+    text-align: center;
+    img {
+        max-width: 230px;
+    }
+    
+}
 
 /* start header-middle css */
 .header-middle {
@@ -118,6 +128,8 @@
         @media (max-width:991px) {
             display: none;
         }
+
+
     }
 
     .middle-box {

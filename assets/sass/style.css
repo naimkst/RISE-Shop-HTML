@@ -1403,6 +1403,18 @@ body.dark-page .mouse-circle-follow {
   font-size: 12px;
 }
 
+.navbar-header {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.navbar-brand {
+  text-align: center;
+}
+.navbar-brand img {
+  max-width: 230px;
+}
+
 /* start header-middle css */
 .header-middle {
   padding-top: 20px;
