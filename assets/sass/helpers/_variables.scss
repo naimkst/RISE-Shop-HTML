@@ -8,12 +8,36 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
+@font-face {
+	font-family: "Starling";
+	src: url("../fonts/Starling-Book.woff2") format("woff2"),
+	  url("../fonts/Starling-Book.woff") format("woff");
+	font-style: normal;
+	font-weight: 300;
+  }
+  
+  
+  @font-face {
+	font-family: "Starling";
+	src: url("../fonts/Starling-Book-Italic.woff2") format("woff2"),
+	  url('../fonts/Starling-Book-Italic.woff') format('woff');
+	font-style: italic;
+	font-weight: 300;
+  }
+  
+  @font-face {
+	font-family: "UntitledSans";
+	src: url("../fonts/UntitledSans-Regular.woff2") format("woff2"),
+	  url('../fonts/UntitledSans-Regular.woff') format('woff');
+	font-style: normal;
+	font-weight: 400;
+  }
 
 
 // fonts
 $base-font-size: 15;
-$base-font: "Rubik", sans-serif;
-$heading-font: 'Cormorant';
+$base-font:  'Starling', serif;
+$heading-font: 'Starling', serif;
 
 
 

@@ -21,7 +21,6 @@
 	h2 {
 		font-size: 25px;
 		font-style: normal;
-		font-weight: 700;
 		line-height: normal;
 		text-transform: capitalize;
 		display: flex;
@@ -53,6 +52,11 @@
 			line-height: 40px;
 		}
 
+	}
+
+	span {
+		display: block;
+		margin-bottom: 5px;
 	}
 
 	p {
