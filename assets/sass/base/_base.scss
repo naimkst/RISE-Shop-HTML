@@ -338,62 +338,6 @@ img {
 }
 
 
-
-
-
-// datepicker-design
-
-
-.ui-widget.ui-widget-content {
-    box-shadow: 0px 1px 13.5px 1.5px rgba(46, 49, 108, 0.08);
-    border: none;
-    padding: 10px;
-}
-
-.ui-state-default,
-.ui-widget-content .ui-state-default,
-.ui-widget-header .ui-state-default,
-.ui-button,
-html .ui-button.ui-state-disabled:hover,
-html .ui-button.ui-state-disabled:active {
-    border: 1px solid #e3e3e3;
-    background: #f9f9f9;
-    font-weight: normal;
-    color: #454545;
-    text-align: center;
-}
-
-.ui-state-highlight,
-.ui-widget-content .ui-state-highlight,
-.ui-widget-header .ui-state-highlight {
-    border: 1px solid #e3d9d9;
-    background: #7f91a6;
-    color: #ffffff;
-}
-
-.ui-state-active,
-.ui-widget-content .ui-state-active,
-.ui-widget-header .ui-state-active,
-a.ui-button:active,
-.ui-button:active,
-.ui-button.ui-state-active:hover {
-    border: 1px solid $theme-primary-color;
-    background: $theme-primary-color;
-    font-weight: normal;
-    color: #ffffff;
-}
-
-
-body.dark-page {
-    .mouse-circle {
-        background-color: $white;
-    }
-    .mouse-circle-follow { 
-        border-color: $white;
-    }
-}
-
-
 // sticky design
 
 .sticky {

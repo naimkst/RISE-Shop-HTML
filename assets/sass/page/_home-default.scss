@@ -551,3 +551,182 @@
         }
     }
 }
+
+// product-selling-section
+.product-selling-section {
+    &.style-2 {
+        .product-wrap {
+            padding-top: 0;
+            border: 0;
+            padding-left: 40px;
+            padding-right: 40px;
+
+            @media(max-width:991px){
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+
+            .product-item {
+                margin-bottom: 30px;
+            }
+
+            .filter-btn {
+                margin-bottom: 30px;
+
+                h4 {
+                    font-size: 18px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .filter-active {
+            display: none;
+        }
+
+        .filter-wrap {
+            padding: 50px 50px 20px;
+            border: 1px solid #eee;
+            margin-bottom: 50px;
+
+            @media(max-width:991px){
+                padding: 20px 30px 20px;
+            }
+        }
+
+        .product-filter {
+            margin-bottom: 30px;
+        }
+
+        .filter-title {
+            font-size: 18px;
+            text-transform: uppercase;
+            position: relative;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        .filter-title:before {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 30px;
+            height: 1px;
+            background: $theme-primary-color;
+            content: "";
+        }
+
+        .filter-wrap a {
+            color: $text-color;
+
+            &:hover {
+                color: $theme-primary-color;
+            }
+        }
+
+        .sort-by li {
+            line-height: 30px;
+        }
+
+        .color-filter li {
+            line-height: 30px;
+        }
+
+        .color-filter li a {
+            position: relative;
+            padding-left: 20px;
+        }
+
+        .color-filter li a:before {
+            position: absolute;
+            left: 0;
+            top: 5px;
+            width: 10px;
+            height: 10px;
+            background: $theme-primary-color;
+            content: "";
+            border-radius: 50%;
+        }
+
+        .color-filter li:nth-child(2) a:before {
+            background: #A52A2A;
+        }
+
+        .color-filter li:nth-child(3) a:before {
+            background: #FFA500;
+        }
+
+        .color-filter li:nth-child(4) a:before {
+            background: #FF0000;
+        }
+
+        .color-filter li:nth-child(5) a:before {
+            background: #FFFF00;
+        }
+
+        .product-tags li {
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+
+        .product-tags li a {
+            display: block;
+            padding: 5px 15px;
+            border: 1px solid #eee;
+        }
+
+        .product-tags li a:hover {
+            background: $theme-primary-color;
+            border-color: $theme-primary-color;
+            color: #fff;
+        }
+
+        .filter-price {
+            margin-top: 20px;
+        }
+
+        .ui-slider-horizontal {
+            background: #e9e9e9 none repeat scroll 0 0;
+            border: medium none;
+            border-radius: 0;
+            height: 3px;
+            margin-bottom: 20px;
+        }
+
+        .ui-slider-horizontal .ui-slider-handle {
+            background: #fff none repeat scroll 0 0;
+            border: 2px solid $theme-primary-color;
+            height: 10px;
+            outline: medium none;
+            top: -4px;
+            width: 10px;
+            border-radius: 50%;
+            cursor: w-resize;
+            margin-left: -1px;
+        }
+
+        .ui-slider-horizontal .ui-slider-range {
+            background: $theme-primary-color none repeat scroll 0 0;
+        }
+
+        .filter-price input {
+            height: 35px;
+            border: none;
+            width: 75px;
+        }
+
+        .filter-price button {
+            height: 35px;
+            width: 100%;
+            border: 1px solid $theme-primary-color;
+            color: $theme-primary-color;
+            text-transform: uppercase;
+            background: transparent;
+        }
+
+        .filter-price button:hover {
+            background: $theme-primary-color;
+            color: #fff;
+        }
+    }
+}
