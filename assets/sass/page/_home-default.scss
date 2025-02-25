@@ -561,7 +561,7 @@
             padding-left: 40px;
             padding-right: 40px;
 
-            @media(max-width:991px){
+            @media(max-width:991px) {
                 padding-left: 0px;
                 padding-right: 0px;
             }
@@ -589,7 +589,7 @@
             border: 1px solid #eee;
             margin-bottom: 50px;
 
-            @media(max-width:991px){
+            @media(max-width:991px) {
                 padding: 20px 30px 20px;
             }
         }
@@ -727,6 +727,118 @@
         .filter-price button:hover {
             background: $theme-primary-color;
             color: #fff;
+        }
+    }
+}
+
+// story-section
+
+.story-section {
+    .story-wrap {
+        text-align: center;
+
+        h2 {
+            justify-content: center;
+        }
+    }
+}
+
+.story-area {
+    background: #222222;
+
+    .story-items {
+        max-width: 800px;
+        margin: 0 auto;
+
+        .story-content {
+            @media(max-width:767px) {
+                text-align: center;
+                margin-top: 30px;
+            }
+            span {
+                font-size: 14px;
+                color: $white;
+                text-transform: uppercase;
+            }
+
+            h2 {
+                font-size: 40px;
+                color: $white;
+                margin-top: 15px;
+            }
+
+            p {
+                color: $white;
+            }
+        }
+
+        .story-item {
+            @media(max-width:767px) {
+                margin-bottom: 30px;
+            }
+            &:nth-child(even) {
+                .col {
+                    &:nth-child(1) {
+                        order: 2;
+
+                        @media(max-width:767px) {
+                            order: 1;
+                        }
+                    }
+                }
+
+                .col {
+                    &:nth-child(2) {
+                        order: 1;
+
+                        @media(max-width:767px) {
+                            order: 2;
+                        }
+                    }
+                }
+
+                .story-content {
+                    text-align: right;
+
+                    @media(max-width:767px) {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+.story-section.style2{
+    background: $theme-primary-color;
+
+    .story-wrap {
+        max-width: 800px;
+        margin: 0 auto;
+
+        p {
+            color: $white;
+            margin-bottom: 40px;
+        }
+
+        .bottom-text {
+            span {
+                color: $white;
+                display: block;
+            }
+
+            a {
+                text-decoration: underline;
+                color: $white;
+                display: block;
+                margin-top: 20px;
+                transition: all .3s;
+
+                &:hover {
+                    letter-spacing: 1px;
+                }
+            }
         }
     }
 }

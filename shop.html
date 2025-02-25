@@ -10,6 +10,7 @@
     <title> RISE - Store eCommerce HTML Template</title>
     <!--**************** Icon Css ****************-->
     <link href="assets/css/icomoon.css" rel="stylesheet">
+    <link href="assets/css/themify-icons.css" rel="stylesheet">
     <!--**************** bootstrap Css ****************-->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <!--**************** animate Css ****************-->
@@ -84,14 +85,79 @@
                             <div class="col-xl-5 col-lg-5 col-md-3 col-3 text-left">
                                 <div class="header-area-right">
                                     <div class="middle-right">
-                                        <ul>
+                                        <ul class="menu">
                                             <li><a href="#">UNITED KINGDOM / English</a></li>
                                             <li><a href="#">Customer service</a></li>
                                             <li><a href="#">Account</a></li>
                                         </ul>
-                                        <a href="cart.html">
-                                            <i class="icon-cart"><span class="cart-count">2</span></i>
-                                        </a>
+                                        <div class="mini-cart">
+                                            <button class="cart-toggle-btn"><i class="icon-cart"></i><span
+                                                    class="cart-count">2</span></button>
+                                            <div class="mini-cart-content">
+                                                <div class="title"></div>
+                                                <button class="mini-cart-close"><i class="ti-close"></i></button>
+                                                <div class="mini-cart-items">
+                                                    <p class="top-p">Your Cart (1)</p>
+
+                                                    <div class="mini-cart-item clearfix" data-bs-toggle="modal"
+                                                        data-bs-target="#popup-quickview">
+                                                        <div class="mini-cart-item-image">
+                                                            <a href="shop.html"><img src="assets/images/cart-1.png" alt></a>
+                                                        </div>
+                                                        <div class="mini-cart-item-des">
+                                                            <h4><a href="product-single.html">R.I.S.E. Riding Leggings</a></h4>
+                                                            <ul class="product-text-sub">
+                                                                <li>Color: black</li>
+                                                            </ul>
+                                                            <a href="#" class="dlt-btn"><i class="ti-trash"></i></a>
+                                                        </div>
+                                                        <div class="pro-single-btn">
+                                                            <span class="price">$200.00</span>
+                                                            <div class="quantity cart-plus-minus">
+                                                                <input type="text" value="1">
+                                                                <div class="dec qtybutton"></div>
+                                                                <div class="inc qtybutton"></div>
+                                                                <div class="dec qtybutton">-</div>
+                                                                <div class="inc qtybutton">+</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="mini-cart-item clearfix" data-bs-toggle="modal"
+                                                        data-bs-target="#popup-quickview">
+                                                        <div class="mini-cart-item-image">
+                                                            <a href="shop.html"><img src="assets/images/cart-2.png" alt></a>
+                                                        </div>
+                                                        <div class="mini-cart-item-des">
+                                                            <h4><a href="product-single.html">R.I.S.E. Riding Leggings</a></h4>
+                                                            <ul class="product-text-sub">
+                                                                <li>Color: black</li>
+                                                            </ul>
+                                                            <a href="#" class="dlt-btn"><i class="ti-trash"></i></a>
+                                                        </div>
+                                                        <div class="pro-single-btn">
+                                                            <span class="price">$200.00</span>
+                                                            <div class="quantity cart-plus-minus">
+                                                                <input type="text" value="1">
+                                                                <div class="dec qtybutton"></div>
+                                                                <div class="inc qtybutton"></div>
+                                                                <div class="dec qtybutton">-</div>
+                                                                <div class="inc qtybutton">+</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="mini-cart-action clearfix">
+                                                    <ul>
+                                                        <li>Subtotal(2 items)</li>
+                                                        <li><strong>$68,000</strong></li>
+                                                    </ul>
+                                                    <div class="mini-btn">
+                                                        <a href="checkout.html" class="btn-style-1">CONTINUE TO
+                                                            CHECKOUT</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
